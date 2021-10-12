@@ -58,14 +58,17 @@ header {
 .bg-dark {
     --bs-bg-opacity:0;
 }
+header h4 {
 
-
+    padding: 10px 0;
+}
 
 
 
 /* JUMBOTRON SECTION */
 #jumbotron {
 
+    padding: 20px 0;
     background-color: #1abc9c;
     color: white;
 }
@@ -86,10 +89,23 @@ header {
     border-radius: 5px;
 }
 
+#jumbotron h1 {
 
+    padding: 10px 0;
+}
+
+#jumbotron h5 {
+
+    padding-top: 20px;    
+} 
 
 
 /* PORTFOLIO SECTION */
+#portfolio_section {
+
+    margin-top: 50px;
+}
+
 .container_img {
 
     margin: 10px 0;
@@ -110,6 +126,7 @@ header {
 
     background-color: #1abc9c;
     color: white;
+    padding: 50px 0;
 }
 
 #about_section .bar_rgt, 
@@ -122,15 +139,33 @@ header {
     border-radius: 5px;
 }
 
+#about_section p {
 
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
 
 
 
 /* CONTANCT SECTION */
+#contact_section {
+
+    padding: 50px 0;
+}
+
 #contact_section .btn-outline-light{
 
     background-color: #1abc9c;
 }
+
+#contact_section form {
+
+    padding: 30px 0;
+}
+
+
+
 
 
 /* FOOTER SECTION */
@@ -138,6 +173,7 @@ header {
 
     background-color: #3a546d ;
     color: white;
+    padding: 30px 0;
 }
 
 #footer_nav .creator {
@@ -147,7 +183,7 @@ header {
 
 #footer_nav .tabs {
 
-    padding: 0 2%;
+    padding: 20px 2%;
 }
 
 #footer_nav .socials a {
