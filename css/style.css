@@ -89,7 +89,6 @@ header {
 
 
 
-
 /* PORTFOLIO SECTION */
 .container_img {
 
@@ -101,4 +100,34 @@ header {
     border-radius: 15px;
     background-color: transparent;
     border:none;
+}
+
+
+
+/* ABOUT SECTION */
+
+#about_section {
+
+    background-color: #1abc9c;
+    color: white;
+}
+
+#about_section .bar_rgt, 
+#about_section .bar_lft {
+
+    width: 5rem;
+    height: 4px;
+    margin: 0 1%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* CONTANCT SECTION */
+#contact_section .btn-outline-light{
+
+    background-color: #1abc9c;
 }
