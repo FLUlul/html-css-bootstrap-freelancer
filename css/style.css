@@ -1,16 +1,98 @@
-[class*=col] {
+/* debug---------------------------- */
+/* [class*=col] {
 
-    height: 50px;
-    border: solid green 1px;
+    min-height: 50px;
+    background-color:  green ;
+    border: slateblue solid;
+} */
+
+/* [class*=col-] {
+
+    min-height: 100px;
+    background-color:  red ;
+} */
+
+/* .row {
+
+    background-color:  yellow ;
+} */
+/* debug---------------------------- */
+
+a {
+
+    text-decoration: none;
+    color: white;
 }
 
-[class*=col-] {
 
-    height: 100px;
-    border: solid red 1px;
+
+.bar_lft {
+
+    width: 5rem;
+    height: 4px;
+    margin-right: 1%;
+    background-color: #130f0f;
+    border-radius: 5px;
 }
 
-.row {
+.bar_rgt {
 
-    border: solid yellow 1px;
+    width: 5rem;
+    height: 4px;
+    margin-left: 1%;
+    background-color: #130f0f;
+    border-radius: 5px;
+}
+
+.star_title i {
+
+    font-size: 1.6rem;
+}
+
+
+
+/* JUMBOTRON SECTION */
+#jumbotron {
+
+    background-color: #1abc9c;
+    color: white;
+}
+
+.avatar_svg {
+
+    width: 300px;
+    height: auto;
+}
+
+#jumbotron .bar_lft {
+
+    width: 5rem;
+    height: 4px;
+    margin-right: 1%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#jumbotron .bar_rgt {
+
+    width: 5rem;
+    height: 4px;
+    margin-left: 1%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+/* PORTFOLIO SECTION */
+.container_img {
+
+    margin: 10px 0;
+}
+
+.container_img img {
+
+    border-radius: 15px;
+    background-color: transparent;
+    border:none;
 }
