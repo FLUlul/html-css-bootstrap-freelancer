@@ -212,3 +212,12 @@ header h4 {
     padding: 5% 0;
     font-size: 0.7rem;
 }
+
+
+
+
+.form-control {
+
+    border: none;
+    border-bottom: solid 1px grey;
+}
